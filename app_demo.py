@@ -185,4 +185,4 @@ st.components.v1.html(
 )
 
 with st.expander("Ver datos"):
-    st.dataframe(df.rename(columns={"sede": "Sede", "programa": "Programa", "value": "Valor"}), use_container_width=True)gi
+    st.dataframe(df.rename(columns={"sede": "Sede", "programa": "Programa", "value": "Valor"}), use_container_width=True)
