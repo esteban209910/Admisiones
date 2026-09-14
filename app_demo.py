@@ -23,7 +23,7 @@ st.markdown(
     """
     <style>
         .stApp {
-            background: radial-gradient(120% 140% at 10% 0%, #142732 0%, #0F1D26 55%, #0B161E 100%);
+            background: radial-gradient(120% 140% at 10% 0%, #2B1A3D 0%, #1E1230 55%, #120A1E 100%);
         }
         .block-container { padding-top: 2.5rem; max-width: 1100px; }
         h1, h2, h3, p, span, label, div { color: #EAF0EE; }
@@ -185,4 +185,4 @@ st.components.v1.html(
 )
 
 with st.expander("Ver datos"):
-    st.dataframe(df.rename(columns={"sede": "Sede", "programa": "Programa", "value": "Valor"}), use_container_width=True)
+    st.dataframe(df.rename(columns={"sede": "Sede", "programa": "Programa", "value": "Valor"}), use_container_width=True)gi
